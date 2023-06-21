@@ -61,17 +61,17 @@ public class DataLoaderRunner implements CommandLineRunner {
 		br2.setBranchName("Annapurna");
 		
 		
-//		branchRepository.save(br1);
-//		branchRepository.save(br2);
+		branchRepository.save(br1);
+		branchRepository.save(br2);
 		
 		a1.setBranch(br1);
 		a2.setBranch(br2);
 		a3.setBranch(br1);
 	
 		
-//		accountRepository.save(a1);
-//		accountRepository.save(a2);
-//		accountRepository.save(a3);
+		accountRepository.save(a1);
+		accountRepository.save(a2);
+		accountRepository.save(a3);
 		
 	
 		
